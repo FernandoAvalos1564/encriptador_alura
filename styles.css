@@ -1,0 +1,188 @@
+header{
+    width:40%;
+    margin:0px 40px 0px 40px;
+}
+body{
+    background-color: rgb(199, 247, 247);
+}
+.titulo1{
+    color:rgb(48, 48, 137);
+}
+.h1_mensaje{
+    color:rgb(48, 48, 137);
+    font-size:21px;
+    text-align: center;
+}
+p{
+    font-size:18px;
+}
+.textarea1{
+    background-color: rgb(199, 247, 247);
+    resize: none;
+    border: none;
+    padding: 0% 0% 0% 8%;
+    
+}
+.textarea2{
+    resize: none;
+    border: none;
+    background-image: url(./imagenes/Muñeco.png);
+    margin-left: 10px;
+}
+.mensaje_parrafo{
+   font-size:18px;
+   color:rgb(118, 118, 118);
+   margin-left: 23px;
+}
+div{
+    padding: 30% 0% 0% 0%;
+}
+
+.text_a_codificar{
+    display: inline-block;
+    vertical-align: top;
+    width: 39%;
+    margin:0px 40px 0px 20px;
+    padding: 0% 0% 0% 8%;
+    
+}
+.caja_bton{
+   padding: 30% 0% 0% 0% ;
+   
+}
+.bton1{
+    padding: 10px 40px 10px 40px;
+    font-size:15px;
+    border-radius: 10px;
+    border-color:rgb(48, 48, 137);
+    background-color: rgb(48, 48, 137);
+    color:white;
+    margin-right: 38px;
+}
+.bton2{
+    padding: 10px 40px 10px 40px;
+    font-size:15px;
+    border-radius: 10px;
+    border-color:rgb(48, 48, 137);
+    background-color: rgb(193, 193, 237);
+    color:rgb(48, 48, 137);
+}
+.bton_copi{
+    padding:10px 106px 11px 114px;
+    font-size:15px;
+    border-radius: 10px;
+    border-color:rgb(48, 48, 137);
+    background-color: rgb(193, 193, 237);
+    color:rgb(48, 48, 137);
+    margin: 29px;
+}
+.Image{
+    padding-top: 20%;
+}
+.text_codificado{
+    display: inline-block;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 90px;
+    padding: 0% 0% 0% 0%;
+}
+footer{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0.5px 1px 3px 0px;
+    
+}
+
+/* modificaciones para tablet*/
+@media  (max-width: 650px){
+    .textarea2{
+        background-image: url("./imagenes/mensaje_fall.png");
+        height: 62px;
+        
+    }
+    .titulo1{
+        font-size:16px;
+    }
+    .text_a_codificar{
+        width: 77%;
+    }
+    .text_codificado{
+        padding: 0% 3% 0% 0%;
+    }
+    .caja_bton{
+        padding: 5% 0% 0% 0%;
+    }
+    div{
+        padding:0%;
+    }
+    .h1_mensaje{
+        font-size: 0.01px;
+    }
+    .mensaje_parrafo{
+        font-size: 0.01px;
+    }
+    .bton_copi{
+        margin: 4px 0px 0px 43px;
+        padding: 4px 89px 4px 91px;
+
+    }
+}
+/*modificaciones para mobile*/
+@media  (max-width: 360px){
+    img{
+        width: 30px;
+        height:35px;
+    }
+    .textarea1{
+        width:100%;
+        height: 158px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .bton1{
+        padding: 15px 90px 13px 94px;
+        font-size: 17px;
+    }
+    .bton2{
+        padding: 13px 71px 13px 84px;
+        font-size: 17px;
+        margin: 10px 0px 0px 0px;
+    }
+    .text_codificado{
+        margin:6px;
+    }
+    .textarea2{
+        background-image: url("./imagenes/mensaje_fall.png");
+        height: 62px; 
+    }
+    .titulo1{
+        font-size:27px;
+    }
+    .text_a_codificar{
+        width: 77%;
+    }
+    .caja_bton{
+        padding: 5% 0% 0% 0%;
+    }
+    div{
+        padding:0%;
+    }
+    .h1_mensaje{
+        font-size: 0.01px;
+    }
+    .mensaje_parrafo{
+        font-size: 0.01px;
+    }
+    .bton_copi{
+        margin: 4px 0px 0px 43px;
+        padding: 4px 89px 4px 91px;
+
+    }
+}
+
+
+ 
+
+
+
+

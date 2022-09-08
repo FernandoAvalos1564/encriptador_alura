@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" href="styles.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <main>
+        <header><img src="imagenes/Vector.png" width="20px" heigth="20px" alt="logo de Alura"></header>
+        <section class="text_a_codificar">
+            <h1 class="titulo1">Ingrese el texto aqui</h1>
+            <textarea cols="40" rows="15" placeholder="..--CODIFICAR--.." class="textarea1"></textarea>
+            <div class="caja_bton">    
+                <p>🚨Solo letras minisculas y sin acentos</p>
+                <button class="bton1" onclick="btnEncriptar()">Encriptar</button>
+                <button class="bton2" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="text_codificado">
+            <div>
+                <textarea cols="40" rows="15"  class="textarea2"></textarea>
+            </div>
+            <h1 class="h1_mensaje">Ningun mensaje fue encontrado</h1>
+            <p class="mensaje_parrafo">Ingrese el texto que decea desincriptar</p>
+            <button class="bton_copi" onclick="copiar()">Copiar</button>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+<footer>Fernando Avalos</footer>
+</html>
